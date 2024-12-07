@@ -3,8 +3,6 @@ import background from '../assets/background_recomprimido.webp'
 import logoJuegosFlorales from '../assets/logo-juegosflorales.png'
 
 const Login = () => {
-
-
   return (
     <div
       className='relative flex items-center justify-center h-screen bg-cover bg-center'
@@ -25,14 +23,14 @@ const Login = () => {
           Ingresa haciendo uso del correo otorgado por la Universidad.
         </p>
         <a
-          href='https://login-cr5q.onrender.com/login'
+          href={`${import.meta.env.VITE_SERVER_LOGIN}/login`}
           className='w-full bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md flex items-center justify-center gap-2 hover:bg-blue-700 transition-colors duration-300'
         >
           <FaMicrosoft size={24} />
           Iniciar con Microsoft
         </a>
         <a
-           href='https://login-cr5q.onrender.com/login'
+          href={`${import.meta.env.VITE_SERVER_LOGIN}/login`}
           className='mt-2 w-full bg-blue-600 text-white font-semibold py-2 px-4 rounded-lg shadow-md flex items-center justify-center gap-2 hover:bg-blue-700 transition-colors duration-300'
         >
           <FaGoogle size={24} />

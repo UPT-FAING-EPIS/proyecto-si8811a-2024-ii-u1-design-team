@@ -48,18 +48,18 @@ const Home = () => {
           <div className='hidden md:flex space-x-6 p-4 ml-4'>
             <div>
               <Link
-                to='/about'
-                className='text-white sm:text-xl font-semibold hover:underline transition duration-300'
-              >
-                Acerca de
-              </Link>
-            </div>
-            <div>
-              <Link
                 to='/eventos'
                 className='text-white sm:text-xl font-semibold hover:underline transition duration-300'
               >
                 Eventos
+              </Link>
+            </div>
+            <div>
+              <Link
+                to='/about'
+                className='text-white sm:text-xl font-semibold hover:underline transition duration-300'
+              >
+                Acerca de
               </Link>
             </div>
             <div>
